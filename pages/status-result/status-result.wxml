@@ -1,0 +1,28 @@
+<!--page/index/index.wxml-->
+  <view class="section">
+    <view class="section__title">请选择健康状况:</view>
+    <picker bindchange="bindPickerChange_state" value="{{index_state}}" range="{{array_state}}">
+      <view class="picker">
+        {{array_state[index_state]}}
+      </view>
+    </picker>
+  </view>
+  
+  <view class="blank1"></view>
+
+  <view>
+    <button class="button" bindtap="search">查询</button>
+  </view>
+
+  <view class="section">
+    <scroll-view class="resultmenu">
+          <navigator url="../detail/detail?id={{item.id}}"  class="checkbox_group" wx:for="{{resultmenu}}" wx:key="{{index}}"  bindtap="trans">
+            <view>
+              <view class="menu_title">{{item.title}}</view>
+              <view class="imtro">{{item.imtro}}</view>
+              <image class="imagesize" src="{{item.albums[0]}}"></image>
+              <view class="tags">标签：{{item.tags}}</view>
+            </view>
+          </navigator>
+    </scroll-view>
+</view>

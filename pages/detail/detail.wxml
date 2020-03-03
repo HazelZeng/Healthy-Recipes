@@ -1,0 +1,18 @@
+<!-- 食谱详情 -->
+<scroll-view class="checkbox_group">
+    <!--成品展示图-->
+    <image class="imagesize"  src="{{menuInfo.albums[0]}}"></image>
+    <!--标题-->
+    <text class="menudetail_title">{{menuInfo.title}}</text>
+    <view class="detail_tags">标签：{{menuInfo.tags}}</view>
+    <view>
+        <view class="ingredients">主料：{{menuInfo.ingredients}}</view>
+        <view class="ingredients">配料：{{menuInfo.burden}}</view>
+    </view>
+    <view class="menudetail_title">步骤：</view>
+    <block class="ingredients" wx:for="menuInfo" wx:for="{{menuInfo.steps}}" wx:key="{{index}}">
+        <view class="step">{{item.step}}</view>
+        <image class="imagesize" mode="aspectFit" src="{{item.img}}"></image>
+    </block>
+    <view></view>
+</scroll-view>

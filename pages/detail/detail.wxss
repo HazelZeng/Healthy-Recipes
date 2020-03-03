@@ -1,0 +1,32 @@
+@import"../title-result/title-result.wxss";
+
+.menudetail_title{
+    display: block;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    font-size:35rpx;
+    font-weight:bold;
+    background:#ddd;
+    text-align: center;
+}
+
+.detail_tags{
+    font-size:25rpx;
+    color:grey;
+    padding:10rpx;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.ingredients{
+    display: block;
+    font-size: 30rpx;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.step{
+    font-size:30rpx;
+    color:#465D4C;
+}

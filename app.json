@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/title-result/title-result",
+    "pages/effect-result/effect-result",
+    "pages/status-result/status-result",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#86C166",
+    "navigationBarTitleText": "健康食谱"
+  },
+  "sitemapLocation": "sitemap.json"
+}

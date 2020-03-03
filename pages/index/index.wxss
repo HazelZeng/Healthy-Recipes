@@ -1,0 +1,41 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.welcome{
+  font-size: 60rpx;
+    font-family:SimHei;
+    color:#36563C;
+}
+
+.button{
+  width:60%;
+  height:95rpx;
+  border: none;
+  text-align: center;
+  font-size: 45rpx;
+  margin:10px 5px 15px 20px;
+}
+
+.container{
+  background-color: rgba(45, 109, 75, 0.664);
+  height:1100rpx;
+}

@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <div class="welcome">欢迎使用健康食谱</div>
+  <button class="button"  bindtap="go_effect">按功效搜索</button>
+  <button class="button"  bindtap="go_title">按关键字搜索</button>
+  <button class="button"  bindtap="go_status">按健康状况搜索</button>
+</view>
+
